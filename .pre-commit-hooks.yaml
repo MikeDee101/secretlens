@@ -1,0 +1,7 @@
+- id: secretlens
+  name: secretlens
+  description: Scan for accidentally committed secrets
+  entry: secretlens
+  language: python
+  types: [text]
+  stages: [pre-commit]
